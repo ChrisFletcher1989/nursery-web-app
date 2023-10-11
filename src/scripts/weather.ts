@@ -7,7 +7,6 @@ window.addEventListener('load', function () {
             return response.json();
         })
         .then(data => {
-            console.log(data.current_weather.temperature); 
 
             const currentTemperature:number = data.current_weather.temperature; 
 
@@ -17,7 +16,6 @@ window.addEventListener('load', function () {
                 listItem.textContent = `足立: ${currentTemperature}°C`;
                 weatherList.appendChild(listItem);
                 listItem.classList.add('home');
-                console.log(currentTemperature);
             }
         })
         .catch(error => {
@@ -34,7 +32,6 @@ window.addEventListener('load', function () {
             return response.json();
         })
         .then(data => {
-            console.log(data.current_weather.temperature); 
 
             const currentTemperature:number = data.current_weather.temperature; 
 
@@ -44,7 +41,6 @@ window.addEventListener('load', function () {
                 listItem.textContent = `ロンドン: ${currentTemperature}°C`;
                 weatherList.appendChild(listItem);
                 listItem.classList.add('home');
-                console.log(currentTemperature);
             }
         })
         .catch(error => {

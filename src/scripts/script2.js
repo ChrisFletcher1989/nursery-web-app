@@ -30,9 +30,7 @@ function createEvent() {
         newdetails.appendChild(document.createTextNode('Details: ' + details.value));
         allevents.appendChild(newdetails);
         var button =document.createElement("button");
-        // APPEND TEXT TO BUTTON
 	button.appendChild(document.createTextNode("Delete!"));
-// APPEND BUTTON TO LIST
 	allevents.appendChild(button);
     button.onclick=removeParent;
 }

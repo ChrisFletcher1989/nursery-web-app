@@ -212,7 +212,7 @@ a {
   color: white;
   font-family: Tahoma;
   font-size: 16px;
-  background: url(img/lnd2.jpg) no-repeat center center fixed; 
+  background: url(./img/lnd2.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
