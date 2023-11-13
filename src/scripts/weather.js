@@ -43,3 +43,17 @@ window.addEventListener('load', function () {
         console.error('Error fetching data:', error);
     });
 });
+const getEngStyle = document.getElementById('engStyle');
+let isToggled = false;
+const changeEngStyle = () => {
+    if (getEngStyle) {
+        if (isToggled) {
+            getEngStyle.innerHTML = "more info";
+        }
+        else {
+            getEngStyle.innerHTML = "当園のカリキュラムは、免許を持つ保育士である梅田美貴子と経験豊富なイギリス人教師クリス・フレッチャーによって作成されました。英国とスコットランドの専門家パネルの指導を受け、ブリティッシュスタイルの学びと日本の質をバランスよく取り入れたカリキュラムです.";
+        }
+        isToggled = !isToggled;
+    }
+};
+getEngStyle === null || getEngStyle === void 0 ? void 0 : getEngStyle.addEventListener("click", changeEngStyle);

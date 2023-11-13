@@ -2,6 +2,7 @@ const getMiki: HTMLImageElement | null = document.getElementById('Miki') as HTML
 const getChris:HTMLImageElement|null=document.getElementById('Chris') as HTMLImageElement|null;
 const getMomo = document.getElementById('Momo') as HTMLImageElement | null;
 
+
 const changeMiki = () => {
     if (getMiki) {
         getMiki.src = "img/miki2.jpg";
@@ -20,7 +21,11 @@ const changeMomo = () => {
 }
 }
 
+
+
 getMiki?.addEventListener("click", changeMiki);
 getChris?.addEventListener("click", changeChris);
 getMomo?.addEventListener("click", changeMomo);
+
+
 
