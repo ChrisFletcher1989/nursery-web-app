@@ -83,7 +83,7 @@ const changePeaceText = () => {
             getPeaceText.innerHTML = "More info here";
         }
         else if (getPeaceText != null) {
-            getPeaceText.innerHTML = "DECIDE";
+            getPeaceText.innerHTML = "お子さまは皆さまの人生で最も大切な存在です。安心してお預けいただける場所であることをご理解いたします。梅田先生は免許を持つプロフェッショナルであり、お子さまの安全とセキュリティを最優先に考えています。安全を確保しながらお子さまをお預かりし、お迎えになる前に希望であればお風呂に入れて、ご飯を食べさせることも可能です。どうぞ安心してお子さまをお預けください.";
         }
         isToggled = !isToggled;
     }
@@ -94,7 +94,7 @@ const changeInOutText = () => {
             getInOutText.innerHTML = "More info here";
         }
         else if (getInOutText != null) {
-            getInOutText.innerHTML = "DECIDE";
+            getInOutText.innerHTML = "英語を学ぶ際、情報入力(Input)と自然なアウトプット(Output)の両方が成功への秘訣です。単に聞くだけや、意味を持たないフレーズの反復だけでは、以前に得た情報に基づいて自分自身で英文を作ることほど脳内の活性化につながりません。そのため、Merry Kidsではお子さまがプレッシャーやジャッジメントなしに間違いを恐れずに英語を話し、そこから学べる環境を提供しています。また、アートや自己表現などの遊びのすべてにも同じ考えが適用されます。";
         }
         isToggled = !isToggled;
     }
@@ -105,7 +105,7 @@ const changeSecurityText = () => {
             getSecurityText.innerHTML = "More info here";
         }
         else if (getSecurityText != null) {
-            getSecurityText.innerHTML = "DECIDE";
+            getSecurityText.innerHTML = "私たちはすべての取り組みにおいてセキュリティを最優先としています。経験豊かなプロフェッショナルにお子さまをお預けいただくことで、お子さまと関連するデータを含め、万全の注意でお預かりし、保護していることを保証いたします。";
         }
         isToggled = !isToggled;
     }
