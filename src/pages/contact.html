@@ -26,10 +26,11 @@
     <h1 class="teacherstitle">Get in touch</h1>
   </div>
   <div class ="description-index">電話：<br>
-    メール：
+    メール：<br>  
   </div>
-    <div>
-      <form method="post" action="process_form.php" id="contactForm">
+   <form method="post" id="contactForm" data-netlify="true">
+    <input type="hidden" name="chrisfletcher1989@gmail.com" 
+  value="New Nursery Contact merry-kids-nursery.netlify.app." />
         <p><fieldset>
      <label for="name">名前フルネームで: <br><input id="name" name="name" type="text" placeholder="Name" class=".inline" required /></label><br>
      <label for="email">メールアドレス: <br><input id="email" name="email" type="email" placeholder="Email" required /></label><br>
@@ -39,9 +40,9 @@
     <label for="other">その他:<br><input id="other" name="other" type="text" placeholder="Anything else to tell us?"/></label><br>
             
     
-    <input class="requesttrial" type="submit" value="Request Trial"/></fieldset>
+    <input name="chrisfletcher1989@gmail.com" class="requesttrial" type="submit" value="Request Trial"/></fieldset>
       </p></form>
 </div>
 <footer class="zone yellow footer">Copyright Miki Umeda</footer>
-
 </body>
+</html>
