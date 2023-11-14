@@ -14,7 +14,7 @@ window.addEventListener('load', function () {
             const listItem = document.createElement('li');
             listItem.textContent = `足立: ${currentTemperature}°C`;
             weatherList.appendChild(listItem);
-            listItem.classList.add('home');
+            listItem.classList.add('weather');
         }
     })
         .catch(error => {
@@ -36,7 +36,7 @@ window.addEventListener('load', function () {
             const listItem = document.createElement('li');
             listItem.textContent = `ロンドン: ${currentTemperature}°C`;
             weatherList.appendChild(listItem);
-            listItem.classList.add('home');
+            listItem.classList.add('weather');
         }
     })
         .catch(error => {
