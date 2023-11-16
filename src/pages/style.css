@@ -14,13 +14,7 @@ body {
   margin: 0;
 }
 /*description and text boxes*/
-.centre {
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 
-}
 
 .description-index2 > .blueText{
     color: lightblue;
