@@ -66,7 +66,7 @@ const changeEngStyle = () => {
         if (isToggled && getEngStyle!=null) {
             getEngStyle.innerHTML = "More info here" 
         } else if (getEngStyle!=null){
-            getEngStyle.innerHTML = "当園のカリキュラムは、免許を持つ保育士である梅田美貴子と経験豊富なイギリス人教師クリス・フレッチャーによって作成されました。英国とスコットランドの専門家パネルの指導を受け、ブリティッシュスタイルの学びと日本の質をバランスよく取り入れたカリキュラムです.";
+            getEngStyle.innerHTML = "当園のカリキュラムは、免許を持つ保育士である梅田みき子と経験豊富なイギリス人教師クリス・フレッチャーによって作成されました。英国とスコットランドの専門家パネルの指導を受け、ブリティッシュスタイルの学びと日本の質をバランスよく取り入れたカリキュラムです.";
         }
         isToggled = !isToggled;
     }
