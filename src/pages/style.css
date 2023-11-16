@@ -14,7 +14,9 @@ body {
   margin: 0;
 }
 /*description and text boxes*/
-
+.center {
+    justify-self: center;
+}
 
 .description-index2 > .blueText{
     color: lightblue;
