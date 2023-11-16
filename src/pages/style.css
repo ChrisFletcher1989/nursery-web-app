@@ -16,6 +16,9 @@ body {
 /*description and text boxes*/
 .centre {
     text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
 }
 
