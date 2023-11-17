@@ -117,7 +117,7 @@ test {
     background-color: #444;
     border: solid rgb(251, 59, 168) 2px; 
     }
-    test {
+    .test {
         background-color: #ff30cb;
     }
 .centre-wrap {
