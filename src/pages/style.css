@@ -125,6 +125,14 @@ display: flex;
 align-items: center;
 align-items: center;
 }
+.line-wrap {
+    text-align: center;
+    margin-top: 10px; /* Adjust as needed */
+  }
+  
+  .line-it-button {
+    display: inline-block;
+  }
 /*NAV BAR*/
 .main-nav {
     display:flex;
