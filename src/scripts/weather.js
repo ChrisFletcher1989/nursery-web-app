@@ -110,7 +110,7 @@ const changeSecurityText = () => {
         isToggled = !isToggled;
     }
 };
-getEngBox === null || getEngBox === void 0 ? void 0 : getEngBox.addEventListener("click", changeEngStyle);
+getEngBox === null || getEngBox === void 0 ? void 0 : getEngBox.addEventListener("mouseover", changeEngStyle);
 getElegantBox === null || getElegantBox === void 0 ? void 0 : getElegantBox.addEventListener("click", changeElegantText);
 getPeaceBox === null || getPeaceBox === void 0 ? void 0 : getPeaceBox.addEventListener("click", changePeaceText);
 getInOutBox === null || getInOutBox === void 0 ? void 0 : getInOutBox.addEventListener("click", changeInOutText);

@@ -112,7 +112,7 @@ const changeSecurityText = () => {
         isToggled = !isToggled;
     }
 }
-getEngBox?.addEventListener("click", changeEngStyle);
+getEngBox?.addEventListener("mouseover", changeEngStyle);
 getElegantBox?.addEventListener("click", changeElegantText);
 getPeaceBox?.addEventListener("click", changePeaceText);
 getInOutBox?.addEventListener("click", changeInOutText);
